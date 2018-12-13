@@ -1,0 +1,86 @@
+html{
+    font-size: 100px;
+    background-color: #DF3A3A;
+}
+img{
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#Dier{
+    height: 1.5rem;
+    width: 100%;
+    display: flex;
+    background-image: url("../img/2_02.jpg");
+    background-repeat: no-repeat;/*禁止平铺*/
+    background-size: 100%;
+    background-color:#DF3A3A ;
+    padding-left: 0.55rem;
+}
+#Dier  span{
+    margin-top:0.1rem ;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: 1.3rem;
+    margin-right: 0.1rem;
+    padding-left: 0.013rem;
+    color: white;
+
+}
+
+.zhong{
+    margin: 0 auto;
+   width: 90%;
+    background-color: yellow;
+}
+.Dier2{
+    background-color: #DF3A3A;
+    border: 1px solid #DF3A3A;
+}
+
+h2{
+    width: 100%;
+    height: 0.425rem;
+    background: url(../img/3_05.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*border: 1px solid black;*/
+}
+.Dier2 p{
+     text-align: center;
+    color: #8c8c8c;
+}
+.zhongShang{
+    margin-left: 0.25rem;
+}
+.zhongShang a{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    background-image: url("../img/4_08.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-weight: bold;
+    margin-bottom: 0.03rem;
+}
+.zhongXia{
+    margin-left: 0.5rem;
+}
+.zhongXia a{
+    background: url(../img/6_08.jpg) right no-repeat;
+    padding-right: 0.1rem;
+}
+.zhongXia span{
+    border: solid 1px aquamarine;
+    width: 6rem;
+    height: 10px;
+    margin-left: 0.2rem;
+    font-weight: bold;
+}
+
+
+
+

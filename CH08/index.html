@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>58招聘季专题页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/MyCSS.css">
+</head>
+<body>
+<img class="img-responsive" src="img/1_01.gif" alt="标题">
+<section id="Dier">
+
+            <span class="dd">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+
+</section>
+<section class="Dier2">
+        <h2></h2>
+        <div class="zhong">
+            <p>投递简历有机会获得开工礼物哟</p>
+            <div class="zhongShang">
+                <a href="#">销售</a>   <a href="#">客服</a>  <a href="#">普工</a>
+                <a href="#">司机</a>   <a href="#">快递</a>  <a href="#">保安</a>
+                <a href="#">库管</a>   <a href="#">店员</a>  <a href="#">会计</a>
+                <a href="#">法务</a>   <a href="#">人事</a>  <a href="#">行政</a>
+                <a href="#">设计</a>   <a href="#">美工</a>  <a href="#">家教</a>
+            </div>
+            <div class="zhongXia">
+                <a href="#"> <span>写简历</span></a>   <a href="#"><span>更多职位</span></a>
+            </div>
+        </div>
+
+
+</section>
+<script>
+    (function () {
+        function setRem() {
+            var clientWidth = document.documentElement.clientWidth;
+            var nowPX = clientWidth / 375 * 100;
+            document.documentElement.style.fontSize = nowPX + 'px';
+        }
+
+        setRem();
+        window.addEventListener(supportsOrientationChange, function () {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(function () {
+                setRem();
+            }, 100);
+        }, false);
+    })();
+</script>
+</body>
+
+</html>
